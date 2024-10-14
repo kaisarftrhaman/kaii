@@ -1,0 +1,22 @@
+/* styles.css */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+@keyframes moveText {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(20px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.animate-text {
+    animation: moveText 2s infinite;
+}
